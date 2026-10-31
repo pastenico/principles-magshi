@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\magshimim\C_project_ori_sarussi\Linkedlist.cpp" />
     <ClCompile Include="..\..\..\OneDrive\Documents\git\principles-magshi\Part1Tester_local.cpp" />
     <ClCompile Include="..\..\..\OneDrive\Documents\git\principles-magshi\Part2Tester_local.cpp" />
     <ClCompile Include="..\..\..\OneDrive\Documents\git\principles-magshi\Queue.cpp" />
     <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\magshimim\C_project_ori_sarussi\Linkedlist.h" />
     <ClInclude Include="..\..\..\OneDrive\Documents\git\principles-magshi\Queue.h" />
     <ClInclude Include="..\..\..\OneDrive\Documents\git\principles-magshi\Stack.h" />
     <ClInclude Include="..\..\..\OneDrive\Documents\git\principles-magshi\Utils.h" />

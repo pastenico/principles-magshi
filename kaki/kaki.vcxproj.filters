@@ -27,6 +27,9 @@
     <ClCompile Include="Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\magshimim\C_project_ori_sarussi\Linkedlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\OneDrive\Documents\git\principles-magshi\Queue.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\OneDrive\Documents\git\principles-magshi\Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\magshimim\C_project_ori_sarussi\Linkedlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
