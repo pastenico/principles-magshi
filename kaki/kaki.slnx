@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="kaki.vcxproj" Id="29df57b3-2b25-441a-b57d-8111feac664d" />
+</Solution>

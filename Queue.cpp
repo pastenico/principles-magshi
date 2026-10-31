@@ -2,7 +2,7 @@
 
 void initQueue(Queue* q, unsigned int size)
 {
-    q->arr = new int(size);
+    q->arr = new int[size];
     q->length = size;
     q->count = 0;
 }
@@ -15,7 +15,7 @@ void cleanQueue(Queue* q)
 
 void enqueue(Queue* q, unsigned int newValue)
 {
-    if(!isFull)
+    if(!isFull(q))
     {
         q->arr[q->count] = newValue;
         q->count++;
@@ -25,7 +25,7 @@ void enqueue(Queue* q, unsigned int newValue)
 int dequeue(Queue* q) // return element in top of queue, or -1 if empty
 {
     int i = 0, first = 0;
-    if(isEmpty)
+    if(isEmpty(q))
     {
         return -1;
     }
