@@ -7,6 +7,12 @@ void initQueue(Queue* q, unsigned int size)
     q->count = 0;
 }
 
+void cleanQueue(Queue* q)
+{
+    delete[] q->arr;
+    q->arr = nullptr;
+}
+
 void enqueue(Queue* q, unsigned int newValue)
 {
     if(!isFull)
